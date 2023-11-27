@@ -8,6 +8,8 @@ public class EcommerceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EcommerceApplication.class, args);
+		 PruebaConexionMongoDB pb =new PruebaConexionMongoDB(null,null);
+		 pb.connect();
 	}
 
 }
