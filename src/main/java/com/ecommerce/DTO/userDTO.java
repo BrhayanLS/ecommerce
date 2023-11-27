@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(collection = "usuario")
+@Document(collection = "usuarios")
 public class userDTO {
     @Id
     private String id ;
@@ -20,6 +20,5 @@ public class userDTO {
     private  String nombre;
     private String email;
     private String password;
-    private rolUsuario ROL_USUARIO;
 
 }
